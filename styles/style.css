@@ -25,10 +25,6 @@
 }
 
 .logo_place_header {
-  margin:0;
-  padding:0;
-  width: 183px;
-  height: 32px;
   position: absolute;
   left: 64px;
   top: 30px;
@@ -213,7 +209,6 @@
   min-height: 790px;
   position: relative;
   background-color: #f2f2f2;
-  z-index: -2;
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-size: 867px 637px;
@@ -267,63 +262,28 @@
 }
 
 .section-title_theme_dark{
-  margin:0;
-  padding:0;
   margin-top: 90px;
   color: white;
-  width: 60%;
-  line-height: 69px;
-  font-size: 60px;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 20px;
 }
 
 .section-subtitle_theme_dark {
-  margin:0;
-  padding:0;
-  width: 60%;
   color: white;
-  margin-bottom: 0;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  text-align: center;
 }
 
 .table_theme_dark {
-display: flex;
-width: 1100px;
-justify-content: space-between;
-flex-wrap: wrap;
 z-index: 2;
-margin:0 auto;
 }
 
 .table__cell_theme_dark {
-  margin:0;
-  padding:0;
   width: 200px;
   color: white;
   margin-top:80px;
 }
 
-.table__heading_theme_dark {
-  margin:0;
-  padding:0;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-}
 .table__text_theme_dark {
-  margin:20px 0 0 0;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
+  margin-top:20px;
+  margin-bottom: 90px;
 }
-
-/* и элемента с модификатором вида ключ-значение */
-
 
 .kaufman__triangle {
   margin:0;
@@ -355,7 +315,7 @@ margin:0 auto;
   margin-bottom: 40px;
 }
 
-.footer__column_content-copyright{
+.footer__column_content_copyright{
   margin:0;
   padding:0;
   display: flex;
@@ -364,10 +324,7 @@ margin:0 auto;
   justify-content: space-between;
 }
 
-.logo_place-footer {
-  margin:0;
-  padding:0;
-  width: 183px;
+.logo_place_footer {
   height: 35px;
   background-image: url(../images/logo_place_footer.svg);
 }
@@ -381,7 +338,7 @@ margin:0 auto;
   margin: 18px 0;
 }
 
-.footer__column_content-info {
+.footer__column_content_info {
   margin:0;
   padding:0;
 }
@@ -411,7 +368,7 @@ margin:0 auto;
   text-decoration: none;
 }
 
-.footer__column_content-social {
+.footer__column_content_social {
   margin:0;
   padding:0;
 }
