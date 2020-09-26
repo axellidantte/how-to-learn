@@ -2,6 +2,8 @@
   position: relative;
   top: 50px;
   margin:0 20px 0 0;
+  width: 515;
+  height: 316;
 }
 
 .video__iframe:last-of-type {
